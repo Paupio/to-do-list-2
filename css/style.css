@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #eee;
+  font-family: 'Poppins', sans-serif;
+}
